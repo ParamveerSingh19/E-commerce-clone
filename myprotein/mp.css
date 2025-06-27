@@ -1,0 +1,282 @@
+* {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+
+}
+
+.nav {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 5px 0px 8px;
+    background-color: #e9e2d8;
+    width: 100%;
+    max-width: 100%;
+}
+
+.srch {
+    width: 270px;
+    height: 35px;
+    border: 1px solid rgb(0, 0, 0);
+    padding-left: 5px;
+}
+
+.nav1 {
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav4 {
+    width: 375px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 36px;
+}
+
+.nav3 {
+    width: 981px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hp11,
+.hp12 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #003942;
+    align-items: center;
+    padding: 10px;
+    margin-top: 1px;
+    justify-content: center;
+    gap: 30px;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+.hp121,
+.hp122,
+.hp123,
+.hp124 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    gap: 5px;
+}
+
+.p0 {
+    border: 1px solid white;
+    border: none;
+    outline: none;
+
+}
+
+.hp13 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    background-color: #e9e2d8;
+    color: #003942;
+
+}
+
+.hp131,
+.hp133 {
+    text-align: center;
+}
+
+.hp133 {
+    a {
+        color: #003942;
+    }
+
+    a:hover {
+        color: #003942;
+    }
+
+    a:active {
+        color: #003942(255, 255, 255);
+    }
+
+    a:visited {
+        color: #003942(255, 255, 255);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.slider {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slide a {
+    display: block;
+}
+
+.hp14 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 80px;
+}
+
+.hp14 img {
+    width: 1354px;
+    height: auto;
+}
+
+.hp15 {
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hp151,
+.hp152,
+.hp153,
+.hp154,
+.hp155,
+.hp156 {
+    width: 205px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hp151 img,
+.hp152 img,
+.hp153 img,
+.hp154 img,
+.hp155 img,
+.hp156 img {
+    width: 100%;
+    height: auto;
+}
+
+.trending,
+.clear-whey {
+    padding: 20px;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background: white;
+    width: 220px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.buy-btn {
+    background-color: #003942;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-btn:hover {
+    background-color: #003942;
+}
